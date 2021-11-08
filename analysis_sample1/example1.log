@@ -1,0 +1,54 @@
+../example1.out 
+
+ "mfb.txt" No.00 -- focused beam --
+medium density                       [kg/m^3] :            1000
+speed of sound in the medium            [m/s] :            1500
+frequency                                [Hz] :          100000
+sound pressure amplitude                 [Pa] :     10+      0I
+radius of focused transducer              [m] :           0.045
+curvature radius of the transducer        [m] :           0.072
+x-component of translation vector         [m] :               0
+y-component of translation vector         [m] :               0
+z-component of translation vector         [m] :               0
+rotation parameter theta                [rad] :             0.8
+rotation parameter psi                  [rad] :               0
+sampling number for Gauss-Legendre quadrature :              64
+-- additional information --
+wavelength                                [m] :           0.015
+energy passing through a plane orthogonal to the acoustic axis [W]
+                                              : 1.4965495613794e-06
+
+ "mfb.txt" No.01 -- focused beam --
+medium density                       [kg/m^3] :            1000
+speed of sound in the medium            [m/s] :            1500
+frequency                                [Hz] :          100000
+sound pressure amplitude                 [Pa] :     10+      0I
+radius of focused transducer              [m] :           0.045
+curvature radius of the transducer        [m] :           0.072
+x-component of translation vector         [m] :               0
+y-component of translation vector         [m] :               0
+z-component of translation vector         [m] :               0
+rotation parameter theta                [rad] :             0.8
+rotation parameter psi                  [rad] :      3.14159265
+sampling number for Gauss-Legendre quadrature :              64
+-- additional information --
+wavelength                                [m] :           0.015
+energy passing through a plane orthogonal to the acoustic axis [W]
+                                              : 1.4965495613794e-06
+
+sound pressure and particle velocity at r=( 0.0005,-0.003, 0.001)
+p  = 1.00212250391044e+00 -1.48126694554803e+00 I
+v_x= 9.80722477262735e-08 +6.09783513339794e-08 I
+v_y=-1.49278578009020e-07 -5.68516222872265e-08 I
+v_z= 4.60751677701886e-07 -5.95416636442174e-07 I
+Real value at r=( 0.0005,-0.003, 0.001), t=0.01 
+p  = 1.00212250391139e+00
+v_x= 9.80722477262343e-08
+v_y=-1.49278578008984e-07
+v_z= 4.60751677702269e-07
+
+Directional derivative of sound pressure at r=( 0.0005,-0.003, 0.001)
+n=( 0.107084, 0.275436, 0.955336),|n|=1
+dpdn= 3.63138225495361e+02 +2.57332950455039e+02 I
+Directional derivative using central difference. h=1.5e-09
+dpdn= 3.63138225785894e+02 +2.57332950578023e+02 I

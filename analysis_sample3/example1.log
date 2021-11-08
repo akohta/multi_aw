@@ -1,0 +1,56 @@
+../example1.out 
+
+ "mbb.txt" No.00 -- Bessel beam --
+medium density                  [kg/m^3] :            1000
+speed of sound in the medium       [m/s] :            1500
+frequency                           [Hz] :          100000
+sound pressure amplitude            [Pa] :     10+      0I
+deflection angle                   [rad] :             0.7
+x-component of translation vector    [m] :               0
+y-component of translation vector    [m] :               0
+z-component of translation vector    [m] :               0
+rotation parameter theta           [rad] :             0.2
+rotation parameter psi             [rad] :               0
+-- additional information --
+wavelength                           [m] :           0.015
+radius of the center spot            [m] : 0.0089117362584875
+energy passing through the spot      [W] : 1.7143781877005e-09
+x-component of the energy flow       [W] : 3.4059436728011e-10
+y-component of the energy flow       [W] :               0
+z-component of the energy flow       [W] : 1.6802047635453e-09
+
+ "mbb.txt" No.01 -- Bessel beam --
+medium density                  [kg/m^3] :            1000
+speed of sound in the medium       [m/s] :            1500
+frequency                           [Hz] :          100000
+sound pressure amplitude            [Pa] :     10+      0I
+deflection angle                   [rad] :             0.7
+x-component of translation vector    [m] :               0
+y-component of translation vector    [m] :               0
+z-component of translation vector    [m] :               0
+rotation parameter theta           [rad] :             0.2
+rotation parameter psi             [rad] :      3.14159265
+-- additional information --
+wavelength                           [m] :           0.015
+radius of the center spot            [m] : 0.0089117362584875
+energy passing through the spot      [W] : 1.7143781877005e-09
+x-component of the energy flow       [W] : -3.4059436728011e-10
+y-component of the energy flow       [W] : 1.2226632856655e-18
+z-component of the energy flow       [W] : 1.6802047635453e-09
+
+sound pressure and particle velocity at r=( 0.0005,-0.003, 0.001)
+p  = 1.59332592989650e+01 +5.17622780431594e+00 I
+v_x=-1.61776020124149e-07 +5.40756077776743e-07 I
+v_y= 9.85334648918690e-07 -3.03369433948720e-06 I
+v_z= 7.95257005108287e-06 +2.62747164566141e-06 I
+Real value at r=( 0.0005,-0.003, 0.001), t=0.01 
+p  = 1.59332592989617e+01
+v_x=-1.61776020124496e-07
+v_y= 9.85334648920640e-07
+v_z= 7.95257005108118e-06
+
+Directional derivative of sound pressure at r=( 0.0005,-0.003, 0.001)
+n=( 0.107084, 0.275436, 0.955336),|n|=1
+dpdn=-1.08852169547624e+03 +4.93321387452472e+03 I
+Directional derivative using central difference. h=1.5e-09
+dpdn=-1.08852169707537e+03 +4.93321387473600e+03 I
